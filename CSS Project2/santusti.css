@@ -1,0 +1,146 @@
+nav{
+    width: 100%;
+    height: 70px;
+    padding: 0px 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:inset 5px 5px 20px white;
+    
+}
+.logo{
+    font-weight: bold;
+    font: size 10em;
+    letter-spacing: 2px;
+    box-shadow: 5px 0px 2px brown;
+}
+.logo span{
+    color:brown;
+}
+.menu{
+    width: 30%;
+    justify-content: center;
+    align-content: center;
+}
+.menu a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+   
+}
+.menu input{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 8px;
+    width: 100px;
+}
+.slogan{
+    color: aliceblue;
+    justify-items: center;
+    text-align: center;
+    text-shadow:2px 2px 4px white ;
+    
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    width: 1000px; /* adjust width as needed */
+    height: 300px;
+    margin: 40px auto; /* add margin for spacing */
+    background-color: #f2f2f2; /* optional background color */
+    padding: 20px; /* add padding for spacing */
+    overflow:auto;
+  }
+
+  .image-container {
+    width: 30%; /* adjust width as needed */
+    margin-right: 20px; /* add margin for spacing */
+    position: sticky;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px; /* optional border radius */
+  }
+  
+  .text-container {
+    width: 60%; /* adjust width as needed */
+  }
+  
+  .text-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+  }
+
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    width: 1000px; /* adjust width as needed */
+    height: 300px;
+    margin: 40px auto; /* add margin for spacing */
+    background-color: #f2f2f2; /* optional background color */
+    padding: 20px; /* add padding for spacing */
+    overflow:auto;
+  }
+  /* <-------Footer-----------------> */
+  .footer{
+    width: 100%;
+    height: 70px;
+    padding: 0px 70px;
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    box-shadow:inset 5px 5px 20px white;
+    
+}
+.footer a{
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+/* ----------------More Button------------------------ */
+.more-button {
+  background-color: #333;
+  width: 70%;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  position: relative;
+  transition: background-color 0.3s ease;
+  display: block;
+  margin: 0 auto;
+}
+.more-button:hover {
+  background-color: #444;
+}
+/* ------------------------Media Query---------------------- */
+@media only screen and (max-width:600px){
+  .logo{
+      width: 100px;
+  }
+    nav a{
+      padding:5px 10px;
+  }
+  nav input{
+    padding: 4px 8px;
+}
+.container1{
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+}
+.container1 img{
+  flex-direction: column;
+
+}
+  }
